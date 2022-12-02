@@ -1,6 +1,3 @@
-
-
-import {FormEvent} from "react";
 import {Login} from './Login'
 import { Contacts } from "./Contacts";
 import './Login.css'
@@ -11,6 +8,9 @@ import {
 } from "react-router-dom";
 
 export const App = () => {
+
+    const contacts = [{name: "HTML"}, {name: "CSS"}, {name: "Test"}, {name: "Test"}]
+
     const router = createBrowserRouter([
         {
             path: "/",
@@ -18,7 +18,7 @@ export const App = () => {
         },
         {
             path : "/contacts",
-            element : <Contacts contacts={[{name: "hello"}]}></Contacts>
+            element : <Contacts contacts={contacts}></Contacts>
         }
     ]);
 

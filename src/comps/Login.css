@@ -33,3 +33,84 @@
     position: relative;
     top: 10px;
 }
+
+.profile {
+    width: 76px;
+    height: 74px;
+    border-style: double;
+    border-radius: 5px;
+    position: absolute;
+    display: grid;
+    left: 10px;
+    top: 6px;
+    object-fit: fill;
+}
+
+.profileText {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 335px;
+    height: 82px;
+    margin: 0 0 auto;
+    align-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 16px 16px 0 3px;
+    padding: 1px;
+    background: linear-gradient(0deg, rgba(227,244,109,0.8239670868347339) 0%, rgba(255,255,255) 100%);
+}
+
+.text{
+    margin-bottom: 4px;
+    margin-right: 101px;
+}
+
+.contactsButton {
+    background-image: url("/contact-39.svg");
+    width: 50px;
+    height: 50px;
+    margin: 0 0 22px -36px;
+    border-style: none;
+}
+.navList {
+    list-style: none;
+    top: -23px;
+    position: relative;
+}
+
+.navBorder {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(188 244 255) 3%, rgb(242 254 255) 38%);
+    border-right-style: solid;
+    width: 60px;
+    padding-top: 10px;
+    border-color: white;
+    padding-bottom: 75%;
+    border-radius: 0 16px;
+    height: 90%;
+
+}
+
+.contactsList {
+    position: absolute;
+    top: 95px;
+    left: 68px;
+}
+
+.contact {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    margin: 0 -33px;
+    position: relative;
+    top: -24px;
+
+
+}
+
+.contact-status  {
+    filter: brightness(0) saturate(100%) invert(81%) sepia(59%) saturate(462%) hue-rotate(49deg) brightness(97%) contrast(88%);
+}

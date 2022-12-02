@@ -1,4 +1,3 @@
-import logo from '../img/logo.webp'
 import './Login.css'
 import {FormEvent} from "react";
 
@@ -11,7 +10,7 @@ const handleClick = (event: FormEvent<HTMLInputElement>) => {
 
 export const Login = () => {
     return <div className={"holder"}>
-        <img src={logo} style={{
+        <img src={"logo.webp"} style={{
             width: "171px",
             height: "163px",
             margin: "11px auto",
