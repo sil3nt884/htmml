@@ -1,0 +1,35 @@
+.holder{
+    background: linear-gradient(0deg, rgba(227,244,109,0.8239670868347339) 0%, rgba(0,177,163,0.7091211484593838) 100%);
+    margin: 0 auto;
+    width: 337px;
+    border-style: double;
+    border-radius: 16px;
+    padding-bottom: 228px;
+    position: relative;
+    top: 10px;
+
+}
+.login {
+    display: flex;
+    width:  352px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.loginInput {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.contactsHolder {
+    margin: 0 auto;
+    width: 337px;
+    border-block-color: darkcyan;
+    border-style: double;
+    border-radius: 16px;
+    padding-bottom: 228px;
+    position: relative;
+    top: 10px;
+}
